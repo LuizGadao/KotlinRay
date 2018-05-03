@@ -13,6 +13,21 @@ fun main(args: Array<String>) {
         print("$i-")
     } while (i > 1)
 
+    printLine()
+
+    val count = 10
+    for (n in 5..count) {
+        print("$n")
+        if (n < count) {
+            print(",")
+        }
+    }
+
+    for (i in 1..5) {
+        for (n in 1..5) {
+
+        }
+    }
 
 }
 
